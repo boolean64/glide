@@ -80,10 +80,14 @@ func (lf *Lockfile) WriteFile(lockpath string) error {
 		return err
 	}
 	for _, l := range lf.Imports {
-		o = bytes.Replace(o, []byte("version: "+l.Version), []byte("version: "+l.Version+" # "+l.Dep.Original+", "+util.Date(l.Dep.CommitInfo.Date)), 1)
+		if l.Dep != nil && l.Dep.CommitInfo != nil {
+			o = bytes.Replace(o, []byte("version: "+l.Version), []byte("version: "+l.Version+" # "+l.Dep.Original+", "+util.Date(l.Dep.CommitInfo.Date)), 1)
+		}
 	}
 	for _, l := range lf.DevImports {
-		o = bytes.Replace(o, []byte("version: "+l.Version), []byte("version: "+l.Version+" # "+l.Dep.Original+", "+util.Date(l.Dep.CommitInfo.Date)), 1)
+		if l.Dep != nil && l.Dep.CommitInfo != nil {
+			o = bytes.Replace(o, []byte("version: "+l.Version), []byte("version: "+l.Version+" # "+l.Dep.Original+", "+util.Date(l.Dep.CommitInfo.Date)), 1)
+		}
 	}
 	return ioutil.WriteFile(lockpath, o, 0666)
 }
