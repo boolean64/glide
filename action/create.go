@@ -6,14 +6,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/dependency"
-	"github.com/Masterminds/glide/gb"
-	"github.com/Masterminds/glide/godep"
-	"github.com/Masterminds/glide/gpm"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/util"
+	"github.com/boolean64/glide/cfg"
+	"github.com/boolean64/glide/dependency"
+	"github.com/boolean64/glide/gb"
+	"github.com/boolean64/glide/godep"
+	"github.com/boolean64/glide/gpm"
+	"github.com/boolean64/glide/msg"
+	gpath "github.com/boolean64/glide/path"
+	"github.com/boolean64/glide/util"
 )
 
 // Create creates/initializes a new Glide repository.

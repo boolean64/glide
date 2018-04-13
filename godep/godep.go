@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/util"
+	"github.com/boolean64/glide/cfg"
+	"github.com/boolean64/glide/msg"
+	gpath "github.com/boolean64/glide/path"
+	"github.com/boolean64/glide/util"
 )
 
 // This file contains commands for working with Godep.

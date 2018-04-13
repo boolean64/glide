@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Masterminds/glide/util"
+	"github.com/boolean64/glide/util"
 	"gopkg.in/yaml.v2"
 )
 

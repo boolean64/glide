@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/Masterminds/glide/msg"
+	"github.com/boolean64/glide/msg"
 )
 
 func TestList(t *testing.T) {

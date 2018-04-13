@@ -3,7 +3,7 @@ package action
 import (
 	"testing"
 
-	"github.com/Masterminds/glide/msg"
+	"github.com/boolean64/glide/msg"
 )
 
 func TestNoVendor(t *testing.T) {

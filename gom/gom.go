@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/util"
+	"github.com/boolean64/glide/cfg"
+	"github.com/boolean64/glide/msg"
+	gpath "github.com/boolean64/glide/path"
+	"github.com/boolean64/glide/util"
 )
 
 // Has returns true if this dir has a Gomfile.

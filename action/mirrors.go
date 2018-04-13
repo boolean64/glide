@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Masterminds/glide/mirrors"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
+	"github.com/boolean64/glide/mirrors"
+	"github.com/boolean64/glide/msg"
+	gpath "github.com/boolean64/glide/path"
 )
 
 // MirrorsList displays a list of currently setup mirrors.
